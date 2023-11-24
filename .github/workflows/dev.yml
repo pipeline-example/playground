@@ -30,4 +30,4 @@ jobs:
           key: ${{ secrets.KEY }}
           script: |
             cd /project
-            ls
+            pm2 ls
